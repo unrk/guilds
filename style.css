@@ -1,0 +1,70 @@
+        @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-image: url(https://r4.wallpaperflare.com/wallpaper/110/664/979/cyberpunk-video-games-pixel-art-the-last-night-wallpaper-f5c2ba815d61ae9dc51a1c73be62f6ed.jpg);
+            background-size: cover;
+            background-position: center;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            padding: 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            margin-bottom: 2rem;
+            color: #ffffff;
+            text-align: center;
+            font-size: 4rem;
+            font-family: 'Pixelify Sans', sans-serif;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        .container {
+            background: linear-gradient(135deg, #dae1f52a 0%, #1f1f1f28 100%);
+            border-radius: 8px;
+            overflow: hidden;
+            width: 150px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid #ffffff8a;
+        }
+
+        .container:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+        }
+
+        .link {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-decoration: none;
+            color: #ffffff;
+            padding: 1rem;
+            height: 100%;
+            text-align: center;
+            gap: 2em;
+        }
+
+        .link span {
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
